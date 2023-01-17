@@ -16,7 +16,7 @@ def test_current_timetable():
     time.sleep(6)
 
     user_field = browser.find_element(By.ID, "i0116")
-    user_field.send_keys("jeremy.dufour@eurotunnel.com")
+    user_field.send_keys("")
 
     # Récupérer la valeur saisie dans le champ
     email = user_field.get_attribute("value")
